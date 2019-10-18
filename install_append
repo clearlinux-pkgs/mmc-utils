@@ -1,0 +1,4 @@
+mkdir -p %{buildroot}/usr/bin
+mkdir -p %{buildroot}/usr/share/man/man1
+install mmc %{buildroot}/usr/bin/
+install man/mmc.1 %{buildroot}/usr/share/man/man1/
